@@ -1,4 +1,4 @@
-module github.com/gatyn/gtn-svc-migration
+module github.com/lpilot/goose
 
 go 1.23.0
 
