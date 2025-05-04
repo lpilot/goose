@@ -1,4 +1,4 @@
-module github.com/pressly/goose/v3
+module github.com/gatyn/gtn-svc-migration
 
 go 1.23.0
 
@@ -71,11 +71,4 @@ require (
 	modernc.org/libc v1.62.1 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.9.1 // indirect
-)
-
-retract (
-	v3.21.0 // Invalid replace directives
-	v3.12.2 // Invalid module reference
-	v3.12.1 // Invalid module reference
-	v3.12.0 // Invalid module reference
 )
